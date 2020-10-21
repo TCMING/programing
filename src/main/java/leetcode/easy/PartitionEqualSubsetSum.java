@@ -8,7 +8,7 @@ package leetcode.easy;
 public class PartitionEqualSubsetSum {
     public static void main(String[] args) {
         PartitionEqualSubsetSum equalSubsetSum = new PartitionEqualSubsetSum();
-        equalSubsetSum.canPartition(new int[]{3,3,3,4,5});
+        equalSubsetSum.canPartition(new int[]{3,33,4,5});
 
     }
     public boolean canPartition(int[] nums) {

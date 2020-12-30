@@ -10,4 +10,8 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
     public TreeNode(int x) { val = x; }
+
+    public TreeNode buildTreeNode(int[] array){
+        return new TreeNode(0);
+    }
 }

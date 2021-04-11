@@ -1,4 +1,4 @@
-package leetcode.threads;
+package leetcode.multithreading;
 
 /**
  * @Author tianchengming

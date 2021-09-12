@@ -23,4 +23,18 @@ public class ListNode {
         return dummy.next;
     }
 
+    public static void print(ListNode nodes){
+        if(nodes == null){
+            System.out.println("null");
+        }
+        while(nodes != null){
+            if(nodes.next == null){
+                System.out.print(nodes.val);
+                break;
+            }
+            System.out.print(nodes.val+",");
+            nodes = nodes.next;
+        }
+    }
+
 }

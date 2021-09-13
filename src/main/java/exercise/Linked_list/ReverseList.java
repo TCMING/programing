@@ -1,4 +1,4 @@
-package exercise.listnode;
+package exercise.Linked_list;
 
 import exercise.definition.ListNode;
 

@@ -1,4 +1,4 @@
-package exercise.easy;
+package exercise.greedy;
 
 /**
  * 455

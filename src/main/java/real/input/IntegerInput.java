@@ -1,4 +1,4 @@
-package exercise.input;
+package real.input;
 
 import java.util.Scanner;
 

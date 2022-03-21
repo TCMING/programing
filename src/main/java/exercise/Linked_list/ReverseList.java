@@ -2,11 +2,13 @@ package exercise.Linked_list;
 
 import exercise.definition.ListNode;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class ReverseList {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1,2,3,4,5,6,7,8,9};
-        ListNode head = ListNode.buildListNode(nums);
+        ListNode head = ListNode.buildListNode(Arrays.asList(1,2,3,4,5,6,7,8,9));
         ReverseList reverseList = new ReverseList();
         ListNode res = reverseList.reverseList(head);
         ListNode.print(res);

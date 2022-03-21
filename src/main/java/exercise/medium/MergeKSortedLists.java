@@ -2,6 +2,9 @@ package exercise.medium;
 
 import exercise.definition.ListNode;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * @Author tianchengming
  * @Date 2021年4月3日 18:59
@@ -12,8 +15,8 @@ public class MergeKSortedLists {
 
 
     public static void main(String[] args) {
-        ListNode[] lists = { ListNode.buildListNode(new int[]{1, 2, 3}),
-                ListNode.buildListNode(new int[]{1})};
+        ListNode[] lists = { ListNode.buildListNode(Arrays.asList(1, 2, 3)),
+                ListNode.buildListNode(Arrays.asList(1))};
 
         Solution23 solution23 = new Solution23();
         solution23.mergeKLists(lists);

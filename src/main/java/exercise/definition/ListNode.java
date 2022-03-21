@@ -1,9 +1,14 @@
 package exercise.definition;
 
+import java.util.List;
+
 public class ListNode {
 
     public int val;
     public ListNode next;
+
+    public ListNode() {
+    }
 
     public ListNode(int x) {
         val = x;
@@ -13,7 +18,7 @@ public class ListNode {
         this.next = next;
     }
 
-    public static ListNode buildListNode(int[] nums){
+    public static ListNode buildListNode(List<Integer> nums){
         ListNode dummy = new ListNode(0);
         ListNode head = dummy;
         for(int i: nums){

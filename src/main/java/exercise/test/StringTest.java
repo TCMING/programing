@@ -9,5 +9,8 @@ public class StringTest {
     public static void main(String[] args) {
         String test = "123455";
         System.out.println(test.split("123"));
+
+        //转字符数组
+        char[] arrayStr = test.toCharArray();
     }
 }

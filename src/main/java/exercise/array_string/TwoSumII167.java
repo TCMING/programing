@@ -1,4 +1,4 @@
-package exercise.array_question;
+package exercise.array_string;
 
 public class TwoSumII167 {
     //暴力解法

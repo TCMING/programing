@@ -1,4 +1,4 @@
-package exercise.array_question;
+package exercise.array_string;
 
 import java.util.Random;
 

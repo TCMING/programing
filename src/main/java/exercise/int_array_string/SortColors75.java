@@ -1,4 +1,4 @@
-package exercise.array_string;
+package exercise.int_array_string;
 
 public class SortColors75 {
 
